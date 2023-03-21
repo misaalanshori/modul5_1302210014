@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hasil penjumlahan dari 13 + 02 + 21 adalah " + Penjumlahan.JumlahTigaAngka<double>(13.0, 02.0, 21.0));
         }
     }
 }
