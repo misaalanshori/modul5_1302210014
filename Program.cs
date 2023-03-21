@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            SimpleDataBase<double> dataAngka = new SimpleDataBase<double>();
+            dataAngka.AddNewData(13.0);
+            dataAngka.AddNewData(02.0);
+            dataAngka.AddNewData(21.0);
+            dataAngka.PrintAllData();
         }
     }
 }
